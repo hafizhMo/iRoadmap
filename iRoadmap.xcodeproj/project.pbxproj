@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		FB5DF892288E50E200FF8AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DF891288E50E200FF8AAC /* AppDelegate.swift */; };
 		FB5DF894288E50E200FF8AAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DF893288E50E200FF8AAC /* SceneDelegate.swift */; };
-		FB5DF896288E50E200FF8AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DF895288E50E200FF8AAC /* ViewController.swift */; };
-		FB5DF899288E50E200FF8AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5DF897288E50E200FF8AAC /* Main.storyboard */; };
 		FB5DF89C288E50E200FF8AAC /* iRoadmap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5DF89A288E50E200FF8AAC /* iRoadmap.xcdatamodeld */; };
 		FB5DF89E288E50E400FF8AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5DF89D288E50E400FF8AAC /* Assets.xcassets */; };
 		FB5DF8A1288E50E400FF8AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5DF89F288E50E400FF8AAC /* LaunchScreen.storyboard */; };
 		FB5DF8AC288E50E400FF8AAC /* iRoadmapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DF8AB288E50E400FF8AAC /* iRoadmapTests.swift */; };
 		FB5DF8B6288E50E400FF8AAC /* iRoadmapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DF8B5288E50E400FF8AAC /* iRoadmapUITests.swift */; };
 		FB5DF8B8288E50E400FF8AAC /* iRoadmapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DF8B7288E50E400FF8AAC /* iRoadmapUITestsLaunchTests.swift */; };
+		FB8D36E7288F70F700F3F763 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D36E6288F70F700F3F763 /* HomeViewController.swift */; };
+		FB8D36EA288F723100F3F763 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FB8D36E9288F723100F3F763 /* SnapKit */; };
+		FB8D36EE288F782300F3F763 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D36ED288F782300F3F763 /* ProfileViewController.swift */; };
+		FB8D36F2288F785D00F3F763 /* BadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D36F1288F785D00F3F763 /* BadgesViewController.swift */; };
+		FB8D36F6288F789300F3F763 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D36F5288F789300F3F763 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		FB5DF88E288E50E200FF8AAC /* iRoadmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRoadmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5DF891288E50E200FF8AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB5DF893288E50E200FF8AAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB5DF895288E50E200FF8AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB5DF898288E50E200FF8AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB5DF89B288E50E200FF8AAC /* iRoadmap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iRoadmap.xcdatamodel; sourceTree = "<group>"; };
 		FB5DF89D288E50E400FF8AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5DF8A0288E50E400FF8AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,10 @@
 		FB5DF8B1288E50E400FF8AAC /* iRoadmapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRoadmapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5DF8B5288E50E400FF8AAC /* iRoadmapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRoadmapUITests.swift; sourceTree = "<group>"; };
 		FB5DF8B7288E50E400FF8AAC /* iRoadmapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRoadmapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB8D36E6288F70F700F3F763 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FB8D36ED288F782300F3F763 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FB8D36F1288F785D00F3F763 /* BadgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesViewController.swift; sourceTree = "<group>"; };
+		FB8D36F5288F789300F3F763 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8D36EA288F723100F3F763 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +107,11 @@
 		FB5DF890288E50E200FF8AAC /* iRoadmap */ = {
 			isa = PBXGroup;
 			children = (
-				FB5DF891288E50E200FF8AAC /* AppDelegate.swift */,
-				FB5DF893288E50E200FF8AAC /* SceneDelegate.swift */,
-				FB5DF895288E50E200FF8AAC /* ViewController.swift */,
-				FB5DF897288E50E200FF8AAC /* Main.storyboard */,
-				FB5DF89D288E50E400FF8AAC /* Assets.xcassets */,
-				FB5DF89F288E50E400FF8AAC /* LaunchScreen.storyboard */,
 				FB5DF8A2288E50E400FF8AAC /* Info.plist */,
-				FB5DF89A288E50E200FF8AAC /* iRoadmap.xcdatamodeld */,
+				FB8D36D9288F6E7800F3F763 /* Base */,
+				FB8D36D8288F6E5600F3F763 /* Data */,
+				FB8D36DC288F6F0900F3F763 /* Features */,
+				FB8D36DA288F6EC700F3F763 /* Utilities */,
 			);
 			path = iRoadmap;
 			sourceTree = "<group>";
@@ -130,6 +133,179 @@
 			path = iRoadmapUITests;
 			sourceTree = "<group>";
 		};
+		FB8D36D6288F6E4700F3F763 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36E6288F70F700F3F763 /* HomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB8D36D7288F6E4C00F3F763 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FB8D36D8288F6E5600F3F763 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36E3288F701600F3F763 /* DataSource */,
+				FB8D36E4288F701C00F3F763 /* Model */,
+				FB8D36E2288F701000F3F763 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FB8D36D9288F6E7800F3F763 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FB5DF891288E50E200FF8AAC /* AppDelegate.swift */,
+				FB5DF893288E50E200FF8AAC /* SceneDelegate.swift */,
+				FB5DF89D288E50E400FF8AAC /* Assets.xcassets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FB8D36DA288F6EC700F3F763 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36DB288F6EE900F3F763 /* CoreData */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FB8D36DB288F6EE900F3F763 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FB5DF89A288E50E200FF8AAC /* iRoadmap.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		FB8D36DC288F6F0900F3F763 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36E0288F6F2F00F3F763 /* Badges */,
+				FB8D36DE288F6F1A00F3F763 /* Detail */,
+				FB8D36DD288F6F1200F3F763 /* Home */,
+				FB8D36DF288F6F2000F3F763 /* Profile */,
+				FB8D36E1288F6F5C00F3F763 /* SplashScreen */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FB8D36DD288F6F1200F3F763 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36D7288F6E4C00F3F763 /* ViewModels */,
+				FB8D36D6288F6E4700F3F763 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FB8D36DE288F6F1A00F3F763 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36F4288F788600F3F763 /* ViewModels */,
+				FB8D36F3288F787D00F3F763 /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FB8D36DF288F6F2000F3F763 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36EB288F780600F3F763 /* ViewModels */,
+				FB8D36EC288F780C00F3F763 /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FB8D36E0288F6F2F00F3F763 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36EF288F784800F3F763 /* ViewModels */,
+				FB8D36F0288F784E00F3F763 /* Views */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
+		FB8D36E1288F6F5C00F3F763 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FB5DF89F288E50E400FF8AAC /* LaunchScreen.storyboard */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		FB8D36E2288F701000F3F763 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FB8D36E3288F701600F3F763 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		FB8D36E4288F701C00F3F763 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB8D36EB288F780600F3F763 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FB8D36EC288F780C00F3F763 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36ED288F782300F3F763 /* ProfileViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB8D36EF288F784800F3F763 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FB8D36F0288F784E00F3F763 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36F1288F785D00F3F763 /* BadgesViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB8D36F3288F787D00F3F763 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D36F5288F789300F3F763 /* DetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB8D36F4288F788600F3F763 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +322,9 @@
 			dependencies = (
 			);
 			name = iRoadmap;
+			packageProductDependencies = (
+				FB8D36E9288F723100F3F763 /* SnapKit */,
+			);
 			productName = iRoadmap;
 			productReference = FB5DF88E288E50E200FF8AAC /* iRoadmap.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +397,9 @@
 				Base,
 			);
 			mainGroup = FB5DF885288E50E200FF8AAC;
+			packageReferences = (
+				FB8D36E8288F723100F3F763 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = FB5DF88F288E50E200FF8AAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,7 +418,6 @@
 			files = (
 				FB5DF8A1288E50E400FF8AAC /* LaunchScreen.storyboard in Resources */,
 				FB5DF89E288E50E400FF8AAC /* Assets.xcassets in Resources */,
-				FB5DF899288E50E200FF8AAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +442,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5DF896288E50E200FF8AAC /* ViewController.swift in Sources */,
 				FB5DF892288E50E200FF8AAC /* AppDelegate.swift in Sources */,
 				FB5DF89C288E50E200FF8AAC /* iRoadmap.xcdatamodeld in Sources */,
+				FB8D36EE288F782300F3F763 /* ProfileViewController.swift in Sources */,
 				FB5DF894288E50E200FF8AAC /* SceneDelegate.swift in Sources */,
+				FB8D36F2288F785D00F3F763 /* BadgesViewController.swift in Sources */,
+				FB8D36E7288F70F700F3F763 /* HomeViewController.swift in Sources */,
+				FB8D36F6288F789300F3F763 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB5DF897288E50E200FF8AAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB5DF898288E50E200FF8AAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB5DF89F288E50E400FF8AAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,9 +619,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iRoadmap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iRoadmap;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,9 +647,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iRoadmap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iRoadmap;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -600,6 +778,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB8D36E8288F723100F3F763 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB8D36E9288F723100F3F763 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB8D36E8288F723100F3F763 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FB5DF89A288E50E200FF8AAC /* iRoadmap.xcdatamodeld */ = {
