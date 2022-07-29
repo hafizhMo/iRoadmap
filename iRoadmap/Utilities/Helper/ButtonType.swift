@@ -51,3 +51,16 @@ func backButton() -> UIButton {
     
     return button
 }
+
+func checkBoxButton() -> UIButton {
+    let button = UIButton()
+    button.setImage(UIImage(systemName: "checkmark.square.fill"), for: .selected)
+    button.setImage(UIImage(systemName: "square"), for: .normal)
+    button.tintColor = .systemBlue
+    
+//    button.snp.makeConstraints { btn in
+//        btn.size.equalTo(32)
+//    }
+    
+    return button
+}

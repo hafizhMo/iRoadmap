@@ -26,6 +26,35 @@
 		FB8D36F2288F785D00F3F763 /* BadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D36F1288F785D00F3F763 /* BadgesViewController.swift */; };
 		FB8D36F6288F789300F3F763 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D36F5288F789300F3F763 /* DetailViewController.swift */; };
 		FB8D36F928904CBF00F3F763 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8D36F828904CBF00F3F763 /* ButtonType.swift */; };
+		FB9DA1D82891FF4500FE062F /* HeaderDetailCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1D72891FF4500FE062F /* HeaderDetailCollectionReusableView.swift */; };
+		FB9DA1DA2891FF6600FE062F /* LearningObjCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1D92891FF6600FE062F /* LearningObjCollectionViewCell.swift */; };
+		FB9DA1DC2891FFAC00FE062F /* LinksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1DB2891FFAC00FE062F /* LinksCollectionViewCell.swift */; };
+		FB9DA1DE2891FFC600FE062F /* FooterDetailCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1DD2891FFC600FE062F /* FooterDetailCollectionReusableView.swift */; };
+		FB9DA1E02892011D00FE062F /* DetailViewController+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1DF2892011D00FE062F /* DetailViewController+Cell.swift */; };
+		FB9DA1E228920AFE00FE062F /* DetailViewController+HeaderFoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1E128920AFE00FE062F /* DetailViewController+HeaderFoo.swift */; };
+		FB9DA1E52892274C00FE062F /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1E42892274C00FE062F /* HeaderCollectionReusableView.swift */; };
+		FB9DA1E82892328200FE062F /* StatsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1E72892328200FE062F /* StatsCollectionViewCell.swift */; };
+		FB9DA1EA289233E200FE062F /* MyBadgesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1E9289233E200FE062F /* MyBadgesCollectionViewCell.swift */; };
+		FB9DA1EC289236E200FE062F /* ProfileViewController+DelegateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1EB289236E100FE062F /* ProfileViewController+DelegateDataSource.swift */; };
+		FB9DA1EE28923D1D00FE062F /* ProfileViewController+Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1ED28923D1D00FE062F /* ProfileViewController+Header.swift */; };
+		FB9DA1F12892480900FE062F /* BadgeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1F02892480900FE062F /* BadgeCollectionViewCell.swift */; };
+		FB9DA1F32892514F00FE062F /* BadgesViewController+DelegateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1F22892514F00FE062F /* BadgesViewController+DelegateDataSource.swift */; };
+		FB9DA1F52892521800FE062F /* HeaderBadgeCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1F42892521800FE062F /* HeaderBadgeCollectionReusableView.swift */; };
+		FB9DA1F7289252CA00FE062F /* BadgesViewController+Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1F6289252CA00FE062F /* BadgesViewController+Header.swift */; };
+		FB9DA1F92892598400FE062F /* HomeViewController+DelegateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1F82892598400FE062F /* HomeViewController+DelegateDataSource.swift */; };
+		FB9DA1FB28925A2400FE062F /* HomeViewController+Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1FA28925A2400FE062F /* HomeViewController+Header.swift */; };
+		FB9DA1FE28925B3000FE062F /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1FD28925B3000FE062F /* ContentCollectionViewCell.swift */; };
+		FB9DA2002892621500FE062F /* SubContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA1FF2892621500FE062F /* SubContentCollectionViewCell.swift */; };
+		FB9DA2022892BA4400FE062F /* ProgressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA2012892BA4400FE062F /* ProgressType.swift */; };
+		FB9DA204289340E500FE062F /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA203289340E500FE062F /* Content.swift */; };
+		FB9DA2062893416000FE062F /* SubContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA2052893416000FE062F /* SubContent.swift */; };
+		FB9DA208289341D300FE062F /* LearningObjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA207289341D300FE062F /* LearningObjective.swift */; };
+		FB9DA20A2893420800FE062F /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA2092893420800FE062F /* Link.swift */; };
+		FB9DA20C2893439D00FE062F /* ContentStaticDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA20B2893439D00FE062F /* ContentStaticDataSource.swift */; };
+		FB9DA20E28934B0E00FE062F /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA20D28934B0E00FE062F /* CardCollectionViewCell.swift */; };
+		FB9DA21028935EBF00FE062F /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA20F28935EBF00FE062F /* Badge.swift */; };
+		FB9DA21228935FDE00FE062F /* BadgeStaticDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA21128935FDE00FE062F /* BadgeStaticDataSource.swift */; };
+		FB9DA2142893670900FE062F /* DetailWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DA2132893670900FE062F /* DetailWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +97,35 @@
 		FB8D36F1288F785D00F3F763 /* BadgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesViewController.swift; sourceTree = "<group>"; };
 		FB8D36F5288F789300F3F763 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FB8D36F828904CBF00F3F763 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		FB9DA1D72891FF4500FE062F /* HeaderDetailCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailCollectionReusableView.swift; sourceTree = "<group>"; };
+		FB9DA1D92891FF6600FE062F /* LearningObjCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningObjCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB9DA1DB2891FFAC00FE062F /* LinksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB9DA1DD2891FFC600FE062F /* FooterDetailCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterDetailCollectionReusableView.swift; sourceTree = "<group>"; };
+		FB9DA1DF2892011D00FE062F /* DetailViewController+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+Cell.swift"; sourceTree = "<group>"; };
+		FB9DA1E128920AFE00FE062F /* DetailViewController+HeaderFoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+HeaderFoo.swift"; sourceTree = "<group>"; };
+		FB9DA1E42892274C00FE062F /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		FB9DA1E72892328200FE062F /* StatsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB9DA1E9289233E200FE062F /* MyBadgesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBadgesCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB9DA1EB289236E100FE062F /* ProfileViewController+DelegateDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileViewController+DelegateDataSource.swift"; sourceTree = "<group>"; };
+		FB9DA1ED28923D1D00FE062F /* ProfileViewController+Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileViewController+Header.swift"; sourceTree = "<group>"; };
+		FB9DA1F02892480900FE062F /* BadgeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB9DA1F22892514F00FE062F /* BadgesViewController+DelegateDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BadgesViewController+DelegateDataSource.swift"; sourceTree = "<group>"; };
+		FB9DA1F42892521800FE062F /* HeaderBadgeCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBadgeCollectionReusableView.swift; sourceTree = "<group>"; };
+		FB9DA1F6289252CA00FE062F /* BadgesViewController+Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BadgesViewController+Header.swift"; sourceTree = "<group>"; };
+		FB9DA1F82892598400FE062F /* HomeViewController+DelegateDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+DelegateDataSource.swift"; sourceTree = "<group>"; };
+		FB9DA1FA28925A2400FE062F /* HomeViewController+Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Header.swift"; sourceTree = "<group>"; };
+		FB9DA1FD28925B3000FE062F /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB9DA1FF2892621500FE062F /* SubContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB9DA2012892BA4400FE062F /* ProgressType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressType.swift; sourceTree = "<group>"; };
+		FB9DA203289340E500FE062F /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		FB9DA2052893416000FE062F /* SubContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubContent.swift; sourceTree = "<group>"; };
+		FB9DA207289341D300FE062F /* LearningObjective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningObjective.swift; sourceTree = "<group>"; };
+		FB9DA2092893420800FE062F /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		FB9DA20B2893439D00FE062F /* ContentStaticDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentStaticDataSource.swift; sourceTree = "<group>"; };
+		FB9DA20D28934B0E00FE062F /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB9DA20F28935EBF00FE062F /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		FB9DA21128935FDE00FE062F /* BadgeStaticDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeStaticDataSource.swift; sourceTree = "<group>"; };
+		FB9DA2132893670900FE062F /* DetailWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +216,10 @@
 		FB8D36D6288F6E4700F3F763 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB9DA1FC28925B1300FE062F /* Cells */,
 				FB8D36E6288F70F700F3F763 /* HomeViewController.swift */,
+				FB9DA1F82892598400FE062F /* HomeViewController+DelegateDataSource.swift */,
+				FB9DA1FA28925A2400FE062F /* HomeViewController+Header.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,8 +254,9 @@
 		FB8D36DA288F6EC700F3F763 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				FB9DA1E32892273700FE062F /* Component */,
 				FB4A2BB12890CC360087BEC0 /* Fonts */,
-				FB8D36F728904CA800F3F763 /* Component */,
+				FB8D36F728904CA800F3F763 /* Helper */,
 				FB8D36DB288F6EE900F3F763 /* CoreData */,
 			);
 			path = Utilities;
@@ -274,6 +336,8 @@
 		FB8D36E3288F701600F3F763 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				FB9DA20B2893439D00FE062F /* ContentStaticDataSource.swift */,
+				FB9DA21128935FDE00FE062F /* BadgeStaticDataSource.swift */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -281,6 +345,11 @@
 		FB8D36E4288F701C00F3F763 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FB9DA203289340E500FE062F /* Content.swift */,
+				FB9DA20F28935EBF00FE062F /* Badge.swift */,
+				FB9DA2052893416000FE062F /* SubContent.swift */,
+				FB9DA207289341D300FE062F /* LearningObjective.swift */,
+				FB9DA2092893420800FE062F /* Link.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,7 +364,10 @@
 		FB8D36EC288F780C00F3F763 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB9DA1E62892326A00FE062F /* Cells */,
 				FB8D36ED288F782300F3F763 /* ProfileViewController.swift */,
+				FB9DA1EB289236E100FE062F /* ProfileViewController+DelegateDataSource.swift */,
+				FB9DA1ED28923D1D00FE062F /* ProfileViewController+Header.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,7 +382,10 @@
 		FB8D36F0288F784E00F3F763 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB9DA1EF289247EF00FE062F /* Cells */,
 				FB8D36F1288F785D00F3F763 /* BadgesViewController.swift */,
+				FB9DA1F22892514F00FE062F /* BadgesViewController+DelegateDataSource.swift */,
+				FB9DA1F6289252CA00FE062F /* BadgesViewController+Header.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -318,7 +393,11 @@
 		FB8D36F3288F787D00F3F763 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FB9DA1D62891FEF000FE062F /* Cells */,
 				FB8D36F5288F789300F3F763 /* DetailViewController.swift */,
+				FB9DA1DF2892011D00FE062F /* DetailViewController+Cell.swift */,
+				FB9DA1E128920AFE00FE062F /* DetailViewController+HeaderFoo.swift */,
+				FB9DA2132893670900FE062F /* DetailWebViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,14 +409,62 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		FB8D36F728904CA800F3F763 /* Component */ = {
+		FB8D36F728904CA800F3F763 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
 				FB8D36F828904CBF00F3F763 /* ButtonType.swift */,
 				FB4A2BAF2890C6750087BEC0 /* LabelType.swift */,
 				FB4A2BB82890E5EB0087BEC0 /* ImageType.swift */,
+				FB9DA2012892BA4400FE062F /* ProgressType.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FB9DA1D62891FEF000FE062F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB9DA1DD2891FFC600FE062F /* FooterDetailCollectionReusableView.swift */,
+				FB9DA1D72891FF4500FE062F /* HeaderDetailCollectionReusableView.swift */,
+				FB9DA1D92891FF6600FE062F /* LearningObjCollectionViewCell.swift */,
+				FB9DA1DB2891FFAC00FE062F /* LinksCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FB9DA1E32892273700FE062F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				FB9DA1E42892274C00FE062F /* HeaderCollectionReusableView.swift */,
+				FB9DA20D28934B0E00FE062F /* CardCollectionViewCell.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		FB9DA1E62892326A00FE062F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB9DA1E72892328200FE062F /* StatsCollectionViewCell.swift */,
+				FB9DA1E9289233E200FE062F /* MyBadgesCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FB9DA1EF289247EF00FE062F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB9DA1F02892480900FE062F /* BadgeCollectionViewCell.swift */,
+				FB9DA1F42892521800FE062F /* HeaderBadgeCollectionReusableView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FB9DA1FC28925B1300FE062F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB9DA1FD28925B3000FE062F /* ContentCollectionViewCell.swift */,
+				FB9DA1FF2892621500FE062F /* SubContentCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,16 +606,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9DA21228935FDE00FE062F /* BadgeStaticDataSource.swift in Sources */,
+				FB9DA1F52892521800FE062F /* HeaderBadgeCollectionReusableView.swift in Sources */,
+				FB9DA1E82892328200FE062F /* StatsCollectionViewCell.swift in Sources */,
+				FB9DA1DC2891FFAC00FE062F /* LinksCollectionViewCell.swift in Sources */,
+				FB9DA1E02892011D00FE062F /* DetailViewController+Cell.swift in Sources */,
+				FB9DA1DE2891FFC600FE062F /* FooterDetailCollectionReusableView.swift in Sources */,
+				FB9DA1F92892598400FE062F /* HomeViewController+DelegateDataSource.swift in Sources */,
+				FB9DA1DA2891FF6600FE062F /* LearningObjCollectionViewCell.swift in Sources */,
 				FB5DF892288E50E200FF8AAC /* AppDelegate.swift in Sources */,
 				FB8D36F928904CBF00F3F763 /* ButtonType.swift in Sources */,
 				FB5DF89C288E50E200FF8AAC /* iRoadmap.xcdatamodeld in Sources */,
 				FB4A2BB02890C6750087BEC0 /* LabelType.swift in Sources */,
+				FB9DA1EE28923D1D00FE062F /* ProfileViewController+Header.swift in Sources */,
 				FB8D36EE288F782300F3F763 /* ProfileViewController.swift in Sources */,
+				FB9DA1E228920AFE00FE062F /* DetailViewController+HeaderFoo.swift in Sources */,
 				FB5DF894288E50E200FF8AAC /* SceneDelegate.swift in Sources */,
 				FB8D36F2288F785D00F3F763 /* BadgesViewController.swift in Sources */,
+				FB9DA20E28934B0E00FE062F /* CardCollectionViewCell.swift in Sources */,
+				FB9DA2062893416000FE062F /* SubContent.swift in Sources */,
+				FB9DA20A2893420800FE062F /* Link.swift in Sources */,
+				FB9DA1FE28925B3000FE062F /* ContentCollectionViewCell.swift in Sources */,
+				FB9DA2142893670900FE062F /* DetailWebViewController.swift in Sources */,
+				FB9DA204289340E500FE062F /* Content.swift in Sources */,
+				FB9DA1FB28925A2400FE062F /* HomeViewController+Header.swift in Sources */,
+				FB9DA208289341D300FE062F /* LearningObjective.swift in Sources */,
+				FB9DA1F12892480900FE062F /* BadgeCollectionViewCell.swift in Sources */,
+				FB9DA1F32892514F00FE062F /* BadgesViewController+DelegateDataSource.swift in Sources */,
+				FB9DA21028935EBF00FE062F /* Badge.swift in Sources */,
 				FB4A2BB92890E5EB0087BEC0 /* ImageType.swift in Sources */,
+				FB9DA20C2893439D00FE062F /* ContentStaticDataSource.swift in Sources */,
+				FB9DA1EC289236E200FE062F /* ProfileViewController+DelegateDataSource.swift in Sources */,
+				FB9DA1E52892274C00FE062F /* HeaderCollectionReusableView.swift in Sources */,
+				FB9DA2002892621500FE062F /* SubContentCollectionViewCell.swift in Sources */,
+				FB9DA1EA289233E200FE062F /* MyBadgesCollectionViewCell.swift in Sources */,
 				FB8D36E7288F70F700F3F763 /* HomeViewController.swift in Sources */,
+				FB9DA2022892BA4400FE062F /* ProgressType.swift in Sources */,
+				FB9DA1F7289252CA00FE062F /* BadgesViewController+Header.swift in Sources */,
 				FB8D36F6288F789300F3F763 /* DetailViewController.swift in Sources */,
+				FB9DA1D82891FF4500FE062F /* HeaderDetailCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
